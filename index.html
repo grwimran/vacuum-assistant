@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vacuum Cleaner Customer Assistant</title>
+</head>
+<body>
+  <h1>Vacuum Cleaner Customer Assistant</h1>
+  <p>Ask us about vacuum cleaners, product features, and availability.</p>
+
+  <script
+    src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js"
+    async
+    type="text/javascript">
+  </script>
+
+  <vapi-widget
+    public-key="a66975f4-874d-46f1-b13a-11b94b413a42"
+    assistant-id="9cb52758-d6b8-41c7-bcbb-f520aa4337fd"
+    mode="chat"
+    theme="light"
+    position="bottom-right"
+    size="compact">
+  </vapi-widget>
+</body>
+</html>
